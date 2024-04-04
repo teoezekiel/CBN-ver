@@ -25,7 +25,7 @@ Route::get('/', function () {
 Route::get('/', 'HomeController@index');
 Route::get('rel/{articalName}', 'HomeController@readingArticle');
 Route::get('/phumasia-activity', 'HomeController@phumaisaActivity');
-Route::get('/trandictoinal', 'HomeController@trandictoinal');
+Route::get('/traditional', 'HomeController@traditional');
 Route::get('watch/{videoSlug}', 'HomeController@watch');
 Route::get('/shop-with-impact', 'HomeController@mayamer_shope_desing');
 Route::post('/subscription', function(Request $request){
@@ -50,3 +50,4 @@ Route::post('/subscription', function(Request $request){
 Route::get('/welcomepage', function() {
   return view('front/ex');
 });
+
