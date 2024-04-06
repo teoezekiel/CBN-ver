@@ -136,9 +136,7 @@
 @endpush
 
 @section('content')
-   <video playsinline="playsinline" autoplay="autoplay" id="myVideo" muted="muted" loop="loop" style="width: 100%;">
-		<source src="{{ asset('img/video/Home_page_cover.mp4') }}" type="video/mp4">
-    </video>
+<img src="{{ asset('/img/homepage/main_img.png') }}">
     <div class="container-fluid">
         <div class="row pt-5">
             <div class="col-sm-8">

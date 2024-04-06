@@ -35,8 +35,8 @@
                             <li class="{{ (request()->is('traditional_dance')? 'active' : '' ) }} ">
                                 <a href="{{ url('/traditional_dance') }}">カンボジアの伝統料理</a>
                             </li>
-                            <li class="{{ (request()->is('phumasia-activity')? 'active' : '' ) }}">
-                                <a href="{{ url('/phumasia-activity') }}">クイアクティビティ</a>
+                            <li class="{{ (request()->is('phumasia_activity')? 'active' : '' ) }}">
+                                <a href="{{ url('/phumasia_activity') }}">クイアクティビティ</a>
                             </li>
                             <li><a href="{{ url('welcomepage') }}">プーマシア活動</a></li>
                             <li><a href="#">環境</a></li>
