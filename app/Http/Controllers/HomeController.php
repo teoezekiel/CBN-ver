@@ -34,7 +34,7 @@ class HomeController extends Controller
 		->get();
 		return view('front.home', compact('data'));
 	}
-	public function traditional_dance(){
+	public function cambodia_dance(){
 		$data['video'] = DB::table('video')
 		->select()
 		->orderBy('created_at', 'DESC')
@@ -47,7 +47,7 @@ class HomeController extends Controller
 				}
 			} 
 		$data['videoArtegSelected'] = $video_target;
-		return view('front/traditional_dance', compact('data'));
+		return view('front/cambodia_dance', compact('data'));
 	}
 	public function readingArticle($articleSlug){
         $data['article'] = DB::table('activities')
