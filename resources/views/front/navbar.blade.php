@@ -6,8 +6,8 @@
                 </div>
                 <div id="mainListDiv" class="main_list">
                     <ul class="navlinks">
-                            <li class="{{ (request()->is('trandictoinal')? 'active' : '' ) }} ">
-                                <a href="{{ url('/trandictoinal') }}">カンボジアの伝統料理</a>
+                            <li class="{{ (request()->is('traditional_dance')? 'active' : '' ) }} ">
+                                <a href="{{ url('/traditional_dance') }}">カンボジアの伝統料理</a>
                             </li>
                         <li class="{{ (request()->is('phumasia-activity')? 'active' : '' ) }}"><a href="{{ url('/phumasia-activity') }}">クイアクティビティ</a></li>
                         <li><a href="{{ url('welcomepage') }}">プーマシア活動</a></li>
