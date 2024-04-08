@@ -2,6 +2,17 @@
 
 @push('styles')
 <style>
+    .fixed_main_image {
+
+        top: 60px;
+        left: 0;
+        width: 100%;
+        height: auto;
+        z-index: 0; /* Ensure the main content overlaps the fixed image */
+    }
+    .content {
+        padding-top: 20px; /* Adjust this value based on the height of your navigation bar */
+    }
     .side_bar_right{
         background: #EAE5E3;
         padding-bottom: 20px;
@@ -136,7 +147,7 @@
 @endpush
 
 @section('content')
-<img src="{{ asset('/img/homepage/main_img.png') }}">
+<img class="fixed_main_image" src="{{ asset('/img/homepage/main_img.png') }}" style=" width=100%">
     <div class="container-fluid">
         <div class="row pt-5">
             <div class="col-sm-8">
@@ -190,7 +201,7 @@
                 <h2 class="mt-3 mb-5 h4">新しいフィード投稿</h2>
                 <div class="img_galery">
                     @foreach($data['New_activty_posting'] as $item)
-                    <div class="img_blocks" style="background-image: url({{ asset($item->photo_cover) }});" 
+                    <div class="img_blocks" style="background-image: url({{ asset('/img/homepage/rightsidebar_img1.png') }});" 
                         onclick='setHref("{{$item->title}}")'>
                     </div>
                     @endforeach

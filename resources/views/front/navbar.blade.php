@@ -2,7 +2,7 @@
         /* Style for navigation links */
         .navlinks li:hover,
         .navlinks li.active {
-            background-color: #f0f0f0; /* Change to the desired hover color */
+            background-color: #fff; /* Change to the desired hover color */
         }
 
         /* Style for active link */
@@ -15,12 +15,12 @@
             display: block;
             padding: 10px 15px;
             text-decoration: none;
-            color: #333; /* Change to the desired text color */
+            color: #fff; /* Change to the desired text color */
         }
 
         /* Style for anchor tags on hover */
         .navlinks li a:hover {
-            color: #000; /* Change to the desired text color on hover */
+            color: #fff; /* Change to the desired text color on hover */
         }
 
 </style>   
