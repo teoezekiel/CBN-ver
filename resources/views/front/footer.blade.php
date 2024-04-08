@@ -1,23 +1,57 @@
-<footer style="background-color: #774332; padding:10px 0;">
+<style>
+    ul li {
+        color: #fff;
+        background-color: #100a0a1c;
+        list-style: none;
+        padding: 10px;
+        text-align: left;
+    }
+
+    ul li:hover {
+        background-color: #bae7f4;
+        color: black;
+        border-radius: 4px;
+        cursor: auto;
+    }
+
+    ul li:hover a{
+        color: black;
+    }
+
+    ul li a:hover {
+        background-color: #bae7f4;
+        border-radius: 4px;
+        color: blue;
+        cursor: pointer;
+    }
+
+    a{
+        color:white;
+    }
+    
+</style>
+
+<footer style="background-color: #094c61; padding: 0;">
     <div class="container">
             <div class="row">
                 <div class="col-sm-3 company_slugan">
-                    <div class="logo">
-                        <b>W</b>
+                    <div class="text-center">
+                      <ul style="text-align: justify; color:white;">
+                        <li>CWBミャンマー</li>
+                        <li>お問い合わせ先：<a href="mailto:cwbminfo@gmail.com" target="_blank">cwbminfo@gmail.com</a></li>    
+                        <li>お問い合わせ先：<a href="https://www.facebook.com/profile.php?id=100086685780191" target="_blank">SUCCESS VOCATIONAL TRAINING CENTER</a></li>    
+                      </ul>
                     </div>
-                    <p class="text-center">
-                      国境なく働くということは、世界中の人々と協力することを意味するかもしれません。
-                    </p>
                 </div>
                 <div class="col-sm-3 company_slugan">
                 </div>
                 <div class="col-sm-3 company_slugan">
                     <div id="ignielSubscribe">
                         <div class="email__">
-                            <div class="email">
-                              <h3 style="color: white;"> 購読する</h3>
+                            <div class="">
+                              <h3 style="color: white;"> ここから購読してください！</h3>
                                 <div class="subscription_col">
-                                    <input name="email" class="email" id="subscriptmail" placeholder="Contoh: nama@mail.com"/>
+                                    <input name="email" class="email" id="subscriptmail" placeholder="Contact: name@gmail.com"/>
                                     <input name="uri" type="hidden" value="igniel" /> <input name="loc" type="hidden" value="en_US" />
                                     <button type="submit" onclick="deleteConfirmation()"></button>
                                 </div>
@@ -35,8 +69,8 @@
                 </div>
             </div>
             <div class="row">
-                <p class="text-center">
-                    2024@phumasiaActivity_japanes_v
+                <p class="text-center" style="color: white;">
+                    2024 @ CWB Myanmar
                 </p>
             </div>
     </div>
