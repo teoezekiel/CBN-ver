@@ -24,8 +24,8 @@ Route::get('/', function () {
 });
 Route::get('/', 'HomeController@index');
 Route::get('rel/{articalName}', 'HomeController@readingArticle');
-Route::get('/phumasia_activity', 'HomeController@phumasia_activity');
-Route::get('/traditional_dance', 'HomeController@traditional_dance');
+Route::get('/phumasia_activity', 'HomeController@phumaisaActivity');
+Route::get('/cambodia_dance', 'HomeController@cambodia_dance');
 Route::get('watch/{videoSlug}', 'HomeController@watch');
 Route::get('/shop-with-impact', 'HomeController@mayamer_shope_desing');
 Route::post('/subscription', function(Request $request){
